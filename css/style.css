@@ -1,0 +1,1373 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    min-width: 1500px;
+}
+.nav1 {
+    position: relative;
+    height: 60px;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: Roboto, serif;
+    background: none;
+}
+.nav1 ul {
+    display: flex;
+    font-weight: 400;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.nav1 ul li {
+    margin-left: 10px;
+}
+.men {
+    position: absolute;
+    left: 27px;
+    top: 21px;
+}
+
+a {
+    text-decoration: none;
+    color: #212A2F;
+}
+.men:hover {
+    text-decoration: underline;
+    color: black;
+}
+.women {
+    position: absolute;
+    top: 21px;
+    left: 94px;
+}
+.women:hover {
+    text-decoration: underline;
+    color: black;
+}
+.new_arrivals {
+    position: absolute;
+    left: 187px;
+    top: 21px;
+}
+.new_arrivals:hover {
+    text-decoration: underline;
+    color: black;
+}
+.logo {
+    position: absolute;
+    left: 660.04px;
+    top: 11.02px;
+}
+.sustainbility {
+    position: absolute;
+    left: 1054px;
+    top: 21px;
+}
+.sustainbility:hover {
+    text-decoration: underline;
+    color: black;
+}
+.stores {
+    position: absolute;
+    left: 1214px;
+    top: 21px;
+}
+.stores:hover {
+    text-decoration: underline;
+    color: black;
+}
+.fa-user {
+    position: absolute;
+    left: 1350px;
+    top: 19px;
+    cursor: pointer;
+}
+.fa-question-circle {
+    position: absolute;
+    right: 120px;
+    top: 19px;
+    cursor: pointer;
+}
+.fa-cart-arrow-down {
+    position: absolute;
+    right: 75px;
+    top: 18px;
+    cursor: pointer;
+}
+.body {
+    position: relative;
+}
+.rectangles {
+    position: absolute;
+    height: 750px;
+    width: 100%;
+}
+.trail_runner {
+    position: absolute;
+    width: 669px;
+    height: 63px;
+    font-weight: bold;
+    font-size: 48px;
+    top: 504px;
+    left: 54px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    font-family: Roboto, serif;
+}
+.durable {
+    position: absolute;
+    top: 578px;
+    left: 54px;
+    width: 333px;
+    height: 24px;
+    font-weight: bold;
+    font-family: Roboto, serif;
+    font-size: 16px;
+    line-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.shop_men1 {
+    position: absolute;
+    width: 180px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    top: 626px;
+    left: 54px;
+
+    cursor: pointer;
+}
+.men1 {
+    position: absolute;
+    width: 89px;
+    height: 16px;
+    left: 46px;
+    top: 17px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+.shop_women1 {
+    position: absolute;
+    width: 180px;
+    height: 48px;
+    left: 258px;
+    top: 626px;
+    background: #FFFFFF;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+.women1 {
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    top: 17px;
+    left: 32px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+.body2 {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: none;
+    top: 860px;
+}
+.our_favorites {
+    position: absolute;
+    width: 210px;
+    height: 42px;
+    left: 615px;
+    top: 1px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.hr2 {
+    position: absolute;
+    top: 109px;
+    width: 1236px;
+    height: 2px;
+    background: #D3D4D5;
+    left: 10%;
+
+}
+.ul_body2 {
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    left: 457px;
+    top: 73px;
+}
+.ul_body2 li {
+
+    text-transform: uppercase;
+}
+.everyday {
+    width: 101px;
+    height: 24px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #212A2F;
+}
+.everyday:hover {
+    text-decoration-line: underline;
+    color: black;
+}
+.hr1 {
+    position: absolute;
+    width: 161px;
+    height: 2px;
+    background: #000000;
+    border-radius: 0;
+    left: 427px;
+    top: 105px;
+}
+.running {
+    margin-left: 132px;
+    width: 89px;
+    height: 24px;
+    font-family: Roboto,serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #212A2F;
+}
+.running:hover {
+    text-decoration-line: underline;
+    color: black;
+}
+.travel {
+    margin-left: 132px;
+    width: 72px;
+    height: 24px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #212A2F;
+}
+.travel:hover {
+    text-decoration-line: underline;
+    color: black;
+}
+.wool_runner1 {
+    position: relative;
+    width: 396px;
+    height: 396px;
+    left: 10%;
+    top: 145px;
+}
+.wool_runner {
+    position: absolute;
+    width: 396px;
+    height: 396px;
+}
+.shop_men2 {
+    position: absolute;
+    left: 60px;
+    top: 144px;
+    width: 276px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.shop_women2 {
+    position: absolute;
+    width: 276px;
+    height: 48px;
+    top: 204px;
+    left: 60px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.men2 {
+    position: absolute;
+    width: 89px;
+    height: 16px;
+    top: 17px;
+    left: 94px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+.women2 {
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    top: 17px;
+    left: 80px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+.tree_runner1 {
+    position: relative;
+    width: 396px;
+    height: 396px;
+    top: -251px;
+    left: 575px;
+}
+.tree_runner {
+    position: absolute;
+    width: 396px;
+    height: 396px;
+}
+.shop_men3 {
+    position: absolute;
+    left: 60px;
+    top: 144px;
+    width: 276px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+.shop_women3 {
+    position: absolute;
+    width: 276px;
+    height: 48px;
+    top: 204px;
+    left: 60px;
+    background: #FFFFFF;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+.men3 {
+    position: absolute;
+    width: 89px;
+    height: 16px;
+    top: 17px;
+    left: 94px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+.women3 {
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    top: 17px;
+    left: 80px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+.wool_runner_muzzle1 {
+    position: relative;
+    width: 396px;
+    height: 396px;
+    left: 995px;
+    top: -648px;
+}
+.wool_runner_muzzle {
+    position: absolute;
+    width: 396px;
+    height: 396px;
+}
+.shop_men4 {
+    position: absolute;
+    left: 60px;
+    top: 144px;
+    width: 276px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+
+.shop_women4 {
+    position: absolute;
+    width: 276px;
+    height: 48px;
+    top: 204px;
+    left: 60px;
+    background: #FFFFFF;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+.men4 {
+    position: absolute;
+    width: 89px;
+    height: 16px;
+    top: 17px;
+    left: 94px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+.women4 {
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    top: 17px;
+    left: 80px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #212A2F;
+}
+
+.wool_run {
+    position: absolute;
+    width: 139px;
+    height: 30px;
+    left: 180px;
+    top: 558px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.hr3 {
+    position: absolute;
+    left: 180px;
+    top: 598px;
+    Width: 336px;
+    height: 1px;
+    background: #D3D4D5;
+}
+.cloud {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 180px;
+    top: 610px;
+}
+.cozy {
+    position: absolute;
+    top: 615px;
+    left: 220px;
+    width: 96px;
+    height: 21px;
+    font-family: Roboto, serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: #212A2F;
+}
+
+.tree_run {
+    position: absolute;
+    left: 605px;
+    top: 558px;
+    width: 132px;
+    height: 30px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.hr4 {
+    position: absolute;
+    left: 605px;
+    top: 598px;
+    width: 336px;
+    height: 1px;
+    background: #D3D4D5;
+}
+.flowers {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 610px;
+    left: 605px;
+}
+.light {
+    position: absolute;
+    width: 177px;
+    height: 21px;
+    top: 615px;
+    left: 644px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: #212A2F;
+}
+
+.wool_run_muz {
+    position: absolute;
+    top: 558px;
+    left: 1025px;
+    width: 213px;
+    height: 30px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.hr5 {
+    position: absolute;
+    width: 336px;
+    height: 1px;
+    left: 1025px;
+    top: 598px;
+}
+.petals {
+    position: absolute;
+    top: 610px;
+    left: 1025px;
+    width: 30px;
+    height: 30px;
+}
+.rain {
+    position: absolute;
+    top: 615px;
+    left: 1065px;
+    width: 142px;
+    height: 21px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    color: #212A2F;
+}
+
+.girlincross {
+    position: absolute;
+    top: 778px;
+    width: 100%;
+    height: 542px;
+}
+.body3 {
+    position: relative;
+    top: 1533px;
+    width: 100%;
+    height: 202px;
+}
+.seasons {
+    position: absolute;
+    top: 4px;
+    left: 420px;
+    width: 662px;
+    height: 42px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.soft {
+    position: absolute;
+    top: 100px;
+    left: 487px;
+    width: 511px;
+    height: 24px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.shop_men5 {
+    position: absolute;
+    top: 152px;
+    left: 548px;
+    width: 180px;
+    height: 48px;
+    background: #212A2F;
+    border: 2px solid #212A2F;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+.men5 {
+    position: absolute;
+    top: 17px;
+    left: 46px;
+    width: 89px;
+    height: 16px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.shop_women5 {
+    position: absolute;
+    top: 152px;
+    left: 753px;
+    width: 180px;
+    height: 48px;
+    background: #212A2F;
+    border: 2px solid #212A2F;
+    border-radius: 2px;
+
+    cursor: pointer;
+}
+.women5 {
+    position: absolute;
+    top: 17px;
+    left: 32px;
+    width: 116px;
+    height: 16px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.shop {
+    position: absolute;
+    top: 2549px;
+    left: 10%;
+    width: 324px;
+    height: 42px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.left_switch {
+    position: relative;
+    top: 1861px;
+    left: 34px;
+    cursor: pointer;
+}
+.verxpalkalev1 {
+    position: absolute;
+    top: 2865px;
+    left: 82px;
+    cursor: pointer;
+}
+.nizpalkalev1 {
+    position: absolute;
+    top: 2878px;
+    left: 82px;
+    cursor: pointer;
+}
+.newarrivals {
+    position: absolute;
+    left: 10%;
+    top: 2615px;
+    width: 396px;
+    height: 396px;
+}
+.arrivals {
+    position: absolute;
+    top: 3028px;
+    left: 170px;
+    width: 137px;
+    height: 30px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.the_latest {
+    position: absolute;
+    top: 3068px;
+    left: 170px;
+    width: 357px;
+    height: 48px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.natural_run {
+    position: absolute;
+    top: 2615px;
+    left: 575px;
+    width: 396px;
+    height: 396px;
+}
+.run {
+    position: absolute;
+    top: 3028px;
+    left: 600px;
+    width: 245px;
+    height: 30px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.looking {
+    position: absolute;
+    top: 3068px;
+    left: 600px;
+    width: 352px;
+    height: 72px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.freshlong {
+    position: absolute;
+    top: 2615px;
+    left: 995px;
+    width: 396px;
+    height: 396px;
+}
+.fresh {
+    position: absolute;
+    top: 3028px;
+    left: 1015px;
+    width: 315px;
+    height: 30px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.crips {
+    position: absolute;
+    top: 3068px;
+    left: 1015px;
+    width: 331px;
+    height: 48px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.right_switch {
+    position: relative;
+    top: 1861px;
+    left: 1275px;
+    cursor: pointer;
+}
+.verxpalkaprav1 {
+    position: absolute;
+    top: 2868px;
+    left: 1452px;
+    cursor: pointer;
+}
+.nizpalkaprav1 {
+    position: absolute;
+    top: 2879px;
+    left: 1450px;
+    cursor: pointer;
+}
+
+.shapshot {
+    position: absolute;
+    top: 3274px;
+    width: 100%;
+}
+
+.body4 {
+    position: relative;
+    top: 2800px;
+    width: 100%;
+    height: 185px;
+}
+.made {
+    position: absolute;
+    left: 520px;
+    top: 1px;
+    width: 477px;
+    height: 42px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.we_craft {
+    position: absolute;
+    top: 63px;
+    left: 420px;
+    width: 655px;
+    height: 48px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.see_how {
+    position: relative;
+    top: 137px;
+    left: 555px;
+    width: 384px;
+    height: 48px;
+    background: #212A2F;
+    border: 2px solid #212A2F;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.see {
+    width: 76px;
+    height: 16px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.new {
+    position: absolute;
+    top: 4168px;
+    left: 10%;
+    width: 196px;
+    height: 42px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.left_switch2 {
+    position: relative;
+    top: 3157px;
+    left: 34px;
+    cursor: pointer;
+}
+.verxpalkalev2 {
+    position: absolute;
+    top: 4463px;
+    left: 82px;
+    cursor: pointer;
+}
+.nizpalkalev2 {
+    position: absolute;
+    top: 4477px;
+    left: 82px;
+    cursor: pointer;
+}
+
+.mens {
+    position: absolute;
+    top: 4234px;
+    left: 10%;
+    width: 396px;
+    height: 396px;
+    background: #F5F5F5;
+}
+.mens_trail_runner {
+    position: absolute;
+    top: 4647px;
+    left: 170px;
+    width: 248px;
+    height: 30px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.natural_black {
+    position: absolute;
+    top: 4683px;
+    left: 170px;
+    width: 214px;
+    height: 24px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.womens {
+    position: absolute;
+    top: 4234px;
+    left: 575px;
+    width: 396px;
+    height: 396px;
+    background: #F5F5F5;
+}
+.womens_trail_runner_swt {
+    position: absolute;
+    top: 4647px;
+    left: 600px;
+    width: 282px;
+    height: 30px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.natural_white {
+    position: absolute;
+    top: 4683px;
+    left: 600px;
+    width: 214px;
+    height: 24px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.mens_trail {
+    position: absolute;
+    top: 4234px;
+    left: 995px;
+    width: 396px;
+    height: 396px;
+    background: #F5F5F5;
+}
+.mens_trail_runner_swt {
+    position: absolute;
+    top: 4647px;
+    left: 1015px;
+    width: 248px;
+    height: 30px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.limited_edit {
+    position: absolute;
+    top: 4683px;
+    left: 1015px;
+    width: 218px;
+    height: 24px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.right_switch2 {
+    position: relative;
+    top: 3157px;
+    left: 1275px;
+    cursor: pointer;
+}
+.verxpalkaprav2 {
+    position: absolute;
+    top: 4463px;
+    left: 1452px;
+    cursor: pointer;
+}
+.nizpalkaprav2 {
+    position: absolute;
+    top: 4477px;
+    left: 1450px;
+    cursor: pointer;
+}
+
+.asf {
+    position: absolute;
+    width: 100%;
+    top: 4845px;
+}
+.body5 {
+    position: relative;
+    top: 4080px;
+    width: 100%;
+    height: 250px;
+}
+.reversing {
+    position: absolute;
+    top: 4px;
+    left: 480px;
+    width: 650px;
+    height: 84px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.reducing {
+    position: absolute;
+    top: 104px;
+    left: 483px;
+    width: 645px;
+    height: 72px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.our_sustainable {
+    position: absolute;
+    top: 202px;
+    left: 600px;
+    width: 384px;
+    height: 48px;
+    background: #212A2F;
+    border: 2px solid #212A2F;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.sustainable {
+    width: 266px;
+    height: 16px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.stories {
+    position: absolute;
+    top: 5804px;
+    left: 10%;
+    width: 108px;
+    height: 42px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.left_switch3 {
+    position: relative;
+    top: 4436px;
+    left: 34px;
+    cursor: pointer;
+}
+.verxpalkalev3 {
+    position: absolute;
+    top: 6111px;
+    left: 82px;
+    cursor: pointer;
+}
+.nizpalkalev3 {
+    position: absolute;
+    top: 6125px;
+    left: 82px;
+    cursor: pointer;
+}
+
+.planet {
+    position: absolute;
+    top: 5870px;
+    left: 10%;
+    width: 396px;
+    height: 396px;
+}
+.planet_friendly_activewear {
+    position: absolute;
+    top: 6283px;
+    left: 170px;
+    width: 294px;
+    height: 30px;
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.text {
+    position: absolute;
+    left: 170px;
+    top: 6323px;
+    width: 330px;
+    height: 72px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.adidas {
+    position: absolute;
+    top: 5870px;
+    left: 575px;
+    width: 396px;
+    height: 396px;
+}
+.adidas_and_allbirds {
+    position: absolute;
+    top: 6283px;
+    left: 600px;
+    width: 210px;
+    height: 30px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.text2 {
+    position: absolute;
+    top: 6323px;
+    left: 600px;
+    width: 354px;
+    height: 48px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.how_much {
+    position: absolute;
+    top: 5870px;
+    left: 995px;
+    width: 396px;
+    height: 396px;
+}
+.how_much_did {
+    position: absolute;
+    top: 6287px;
+    left: 995px;
+    width: 326px;
+    height: 59px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+.text3 {
+    position: absolute;
+    top: 6352px;
+    left: 995px;
+    width: 355px;
+    height: 48px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.right_switch3 {
+    position: relative;
+    top: 4463px;
+    left: 1275px;
+    cursor: pointer;
+}
+.verxpalkaprav3 {
+    position: absolute;
+    top: 6141px;
+    left: 1452px;
+    cursor: pointer;
+}
+.nizpalkaprav3 {
+    position: absolute;
+    top: 6155px;
+    left: 1450px;
+    cursor: pointer;
+}
+
+
+.body6 {
+    position: relative;
+    top: 4750px;
+    height: 355px;
+    width: 100%;
+}
+.want {
+    position: absolute;
+    top: 47px;
+    left: 670px;
+    width: 252px;
+    height: 42px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+}
+
+.join {
+    position: absolute;
+    top: 123px;
+    left: 380px;
+    width: 823px;
+    height: 48px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #212A2F;
+
+}
+.input {
+    position: absolute;
+    top: 221px;
+    left: 430px;
+    width: 588px;
+    height: 48px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+input::placeholder {
+    position: absolute;
+    left: 50px;
+    top: 21px;
+    width: 286px;
+    height: 28px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.22);
+}
+.sign_up {
+    position: absolute;
+    top: 221px;
+    left: 1040px;
+    width: 111px;
+    height: 48px;
+    background: #212A2F;
+    border: 2px solid #212A2F;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.sign {
+    width: 71px;
+    height: 16px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.note {
+    position: absolute;
+    top: 293px;
+    left: 550px;
+    width: 286px;
+    height: 14px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #74797C;
+}
+.privacy {
+    position: absolute;
+    top: 293px;
+    left: 830px;
+    width: 95px;
+    height: 14px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #74797C;
+}
+.and {
+    position: absolute;
+    top: 293px;
+    left: 925px;
+    width: 34px;
+    height: 14px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #74797C;
+}
+.terms {
+    position: absolute;
+    top: 293px;
+    left: 957px;
+    width: 40px;
+    height: 14px;
+    font-family: Roboto,serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #74797C;
+}
